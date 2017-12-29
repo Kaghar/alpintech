@@ -1,0 +1,26 @@
+{
+  "name": "alpintech",
+  "version": "1.0.0",
+  "description": "alpintech page",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server",
+    "concat:css": "concat -o resource/css/.style.concat.css resource/css/style.css resource/css/query.css vendors/css/animated.css vendors/css/grid.css vendors/css/animated.css vendors/css/ionicons.min.css vendors/css/normalize.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' resource/css/style.concat.css -o resource/css/style.prefix.css",
+    "compress:css": "node-sass css/style.concat.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all c concat:css prefix:css compress:css"
+    
+  },
+  "author": "kaggy",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "jquery": "^3.2.1",
+    "jquery-modal": "^0.9.1",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1",
+    "waypoints": "^4.0.1"
+  }
+}

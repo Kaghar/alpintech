@@ -1,0 +1,213 @@
+/*Smooth*/
+@media only screen and (max-width: 1750px) {
+    .rek{width: 60%}
+    .right{left:77%;}
+    .firmy{width: 50%;}
+    .tekst{font-size:68%;}
+}
+/*Close to width of row*/
+@media only screen and (max-width: 1200px) {
+    .logo, .logo-black{margin-left: 20px;}
+    .start-box-p {left: 65%;}
+    .oferta .col-span-1-of-3,
+    .oferta .col-span-1-of-2{
+        padding-left: 10px;
+        font-size: 95%;
+        padding-right: 0px;
+    }
+    .rek {width: 60%;}
+    .left {left: 10%;}
+    .right {left: 85%}
+    .firmy {width: 50%;}
+    .tekst {font-size: 68%;}
+    
+}
+/* Smooth */
+@media only screen and (max-width: 1100px) {
+    .oferta .col-span-1-of-3,
+    .oferta .col-span-1-of-2{font-size: 90%;}
+    .tekst {font-size: 60%;}
+    .rek {
+        width: 70%;
+        font-size: 100%;}
+}
+/* Small tablet to big tablet */
+
+@media only screen and (max-width: 1023px) {
+    .start-box{font-size: 80%;}
+    .start-box-p {
+        left: 60%;
+        font-size: 90%;
+    }
+    .oferta .col-span-1-of-3 h3,
+    .oferta .col-span-1-of-2 h3 {text-align: center;}
+    .oferta .col-span-1-of-3,
+    .oferta .col-span-1-of-2 {
+        width: 50%; 
+        font-size: 100%;
+        margin: 0 25%;
+    }
+    .icon-big {
+        text-align: left;
+        padding:  0 45%;
+    }
+    .ion-alert {padding: 0 48%;}
+    .last {
+        margin-right: 18%;
+        margin-left: 4%;
+    }
+    .rek {width: 70%;}
+    .left {left: 10%;}
+    .right {left: 83%;}
+    .firmy {width: 70%;}
+    .tekst {font-size: 54%;}
+    
+}
+/*Smooth*/
+@media only screen and (max-width: 900px) {
+    .rek {width: 90%;}
+    .left {left: 3%;}
+    .right {left: 87%;}
+    .tekst {font-size: 47%;}
+    .firmy {width: 80%;}
+   
+}
+/*Tablets*/
+    
+@media only screen and (max-width: 767px) {
+    
+    .start-box {left: 25%;}
+    .start-box-p{
+        width: 170px;
+        left: 60%;
+    }
+    h2 {font-size: 250%;}
+    .nawigacja {
+        display: none;
+        float: left;
+        margin: 25px 25px 25px 0;
+        font-size: 80%;
+    }
+    .nawigacja li {display: block;}
+    .nawigacja li a:link,
+    .nawigacja li a:visited {
+        display:block;
+        border: none;
+    }
+    .sticky .nawigacja {
+        float: left;
+        margin: 25px 0 25px 0;
+        font-size: 80%;
+    }
+    .mobile-nav-icon {display:inline-block;}
+    .tekst{font-size: 60%}
+    .oferta-mini {font-size: 80%;}
+    .left {left: 3%;}
+    .right {left: 83%;}
+    .rek{font-size: 90%;}
+    cite {font-size: 100%;}
+    .firmy {width: 80%;}
+    .galeria-zdjec li {width: 50%;}
+}
+/*Smooth*/
+@media only screen and (max-width: 600px) {
+    .right {left: 79%;}
+    .left {left: 4%;}
+    .btn-rest,
+    .btn-active,
+    .btn-hover {
+        width: 15px;
+        height: auto;
+    }
+    .btn-active,
+    .btn-hover {
+        top: 4px;
+        left: 0px;
+    }
+    .oferta .col-span-1-of-3,
+    .oferta .col-span-1-of-2 {
+        width: 100%; 
+        margin: 0;
+    }
+    .last {
+        margin:0;
+        padding: 0;
+        padding-left: 5px;
+    }
+    .k,.b {font-size: 89%;}
+    .b {
+        margin-right: 5px; 
+        float: right;}
+    .copy {font-size:89%;}
+    .start-box {left: 20%;}
+    .rek {font-size: 80%;}
+    
+}
+/* Small phones from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+    .logo,
+    .logo-black{height: 40px;}
+    .ion-navicon-round,
+    .ion-close-round {
+        font-size: 150%;
+        margin: 0;
+    }
+    .nawigacja {font-size: 60%;}
+    .mobile-nav-icon{margin: 10px 10px 15px 0px;}
+    .sticky .nawigacja {margin-left: 20px;}
+    .start-box {
+        font-size: 50%;
+        left: 10%;
+        width: auto;
+    }
+    .start-box-p {
+        width: auto;
+        left: 40%;
+        font-size: 70%;
+    }
+    h2 {font-size: 120%;}
+    .icon-big{font-size: 150%;}
+    .oferta .col-span-1-of-3 h3,
+    .oferta .col-span-1-of-2 h3{font-size: 90%;}
+    .oferta-mini {
+        font-size: 80%;
+        font-weight: 400;
+    }
+    .last {font-size: 70%;}
+    .rek{
+        font-size: 60%;
+        height: 200px;
+    }
+    blockquote {margin: 0;}
+    blockquote:before {left: -22px;}
+    .arrow {font-size: 200%;}
+    .arrow {display:none;}
+    .r-dot{top:-10px;}
+    .btn-rest {padding: 15px;}
+    .btn-active,
+    .btn-hover {
+        top: 0px;
+        left: 0px;
+        padding: 15px;
+    }
+    .firmy {
+        width: 96%;
+        font-size: 70%;
+    }
+    .galeria-zdjec li {width: 100%;}
+    .kontakt {font-size: 70%;}
+    input[type=submit] {margin-left: 20%;}
+    .b,.k{font-size: 70%;}
+    .copy {
+        margin-top:5%;
+        font-size:80%;}
+    }
+@media only screen and (max-width: 280px) {
+    .btn-rest {padding: 7px;}
+    .btn-active,
+    .btn-hover {
+        top: 0px;
+        left: 0px;
+        padding: 7px;
+    }
+}
